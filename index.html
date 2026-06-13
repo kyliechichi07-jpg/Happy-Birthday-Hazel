@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Hazel!</title>
+    <link rel="stylesheet" href="bd.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Your Birthday Page!</h1>
+        <img src="https://uploads.onecompiler.io/43xezkmj8/1781385641642/ahc.jpg" alt="Absolute Cinema">
+
+</div>
+    <div class="container">
+        <p>Input the correct password to unlock your birthday message.</p>
+        <p><i>Ps: I will be sad if you're not able to guess it</i></p>
+
+        <input type="password" id="password" placeholder="Enter Password">
+        <button onclick="checkPassword()">Unlock</button>
+        <p id="error"></p>
+<p id="clue" class="clue"></p>
+ 
+<div id="bubble-container"></div>
+
+<div id="birthdayContent">
+    <h1>🎉 Happy Birthday! 🎉</h1>
+
+<div class="memory photo1">
+    <img src="https://uploads.onecompiler.io/43xezkmj8/1781385718299/youngage.jpg" alt="Memory 1" onClick="openImage('https://uploads.onecompiler.io/43xezkmj8/1781385718299/youngage.jpg')">
+    <p>Awwww🥹 Sooo cute!</p>
+</div>
+
+<div class="memory photo2">
+    <img src="https://uploads.onecompiler.io/43xezkmj8/1781385695785/memage.jpg" alt="Memory 2" onClick="openImage('https://uploads.onecompiler.io/43xezkmj8/1781385695785/memage.jpg')">
+    <p>Real life visual of me realizing you are now an <b>UNC!</b>😭</p>
+</div>
+
+<div class="memory photo3">
+    <img src="https://uploads.onecompiler.io/43xezkmj8/1781385706175/usmage.jpg" alt="Memory 3" onClick="openImage('https://uploads.onecompiler.io/43xezkmj8/1781385706175/usmage.jpg')">
+    <p>My first real friend🫶🏾</p>
+</div>
+
+<div class="memory photo4">
+    <img src="https://uploads.onecompiler.io/43xezkmj8/1781385730262/youmage.jpg" alt="Memory 4" onClick="openImage('https://uploads.onecompiler.io/43xezkmj8/1781385730262/youmage.jpg')">
+    <p>Don't stop mogging them😝</p>
+</div>
+
+
+<div id="imageModal" class="modal" onclick="closeImageModal()">
+        <img id="modalImage" class="modal-content" >  
+         
+</div>
+            <p>
+                Wishing you happiness, success, and lots of amazing memories on your special day!
+            </p>
+
+            <img src="https://uploads.onecompiler.io/43xezkmj8/1781385665313/cake.jpeg"
+                 alt="Birthday Cake">
+                 <p>Your order is ready 🤗</p>
+                 <p> ✨One berry cheesecake with raspberry jam sauce(i think), and a chocolate cookie. Just for you✨</p>
+
+                <div class="envelope-container">
+                    <p><i><b>Click to open</b>.</i></p>
+                    <img src="https://uploads.onecompiler.io/43xezkmj8/1781385677801/envelope.jpg" alt="envelope" id="envelope" onClick="openLetter()">
+                   
+                </div>
+
+            <div id="letter-container" style="display: none;">
+
+                <h2> ✨Dear Hazel Emelda Wangari Chege The 1st,✨</h2>
+                <p id="typewriter-text"></p>
+                <p>I'm not very good with words but I tried my best to express how much you mean to me in my own way. I thought about writing a long essay on how much I value you and youre friendship but I felt like this way felt right.</p>
+                <p>You know its funny that we've only known each other for a year, but it feels like we've been friends forever. As we continue growing together I hope we can continue to understand each other better, throught the good and bad times. I look forward to what's gonna happen ahead because I know that you would always have my back as I do with yours.🙃</p>
+
+                <p><b>Happy 20th birthday🫶🏾!</b></p>
+
+                <p><i>joyeux 20e anniversaire</i></p>
+                <p><i>Feliz 20 cumpleaños</i></p>
+                <p><i>furaha ya miaka 20 ya kuzaliwa</i></p>
+                <p><i>20번째 생일 축하해</i></p>
+                <p><i>20歳の誕生日おめでとう</i></p>
+
+                <p>P.S. I thank Romeo for the cute baby pictures😝</p>
+            </div>
+            <div id="petal-container"></div>
+
+            <h2>🎂 Enjoy Your Day! 🎂</h2>
+        </div>
+    </div>
+
+    <script src="bd.js"></script>
+
+<footer class="footer">
+    <p>&copy; June 13th, 2026. 411. All rights reserved🙃.</p>
+</footer>
+
+</body>
+</html>
